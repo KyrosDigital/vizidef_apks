@@ -1,5 +1,7 @@
-Here is the readme for vizidef apks. 
+/installs
 
-This repo is used to manage the working version of the APK. 
+Run install_apk.sh after you clone the repo 
 
-We use branches to indicate versions.
+# run script on boot
+With termux installed on the android device, just place a script in 
+`/data/data/com.termux/files/usr/etc/bash.bashrc`
