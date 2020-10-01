@@ -9,5 +9,7 @@ git pull origin master >> ~/bashlog
 
 su
 
+whoami
+
 mv ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
 
