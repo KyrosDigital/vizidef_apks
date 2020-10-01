@@ -9,7 +9,8 @@ git pull origin master >> ~/bashlog
 
 su
 
-whoami
+sh ~/vizidef_apks/installs/move.sh
 
-mv ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
+
+
 
