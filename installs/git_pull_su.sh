@@ -8,6 +8,8 @@ cd ~/vizidef_apks
 git pull origin master >> ~/bashlog
 
 su << EOF 
+pwd
+ls
 mv ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
 exit;
 EOF
