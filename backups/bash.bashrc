@@ -16,4 +16,5 @@ date >> bashlog
 echo "Closing in 1 minute ..."
 
 sleep 1m
-# exit
+
+exit
