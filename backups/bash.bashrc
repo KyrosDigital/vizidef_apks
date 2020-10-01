@@ -18,4 +18,4 @@ echo "CLOSING IN 1 Minute ...."
 
 sleep 1m
 
-exit
+# exit
