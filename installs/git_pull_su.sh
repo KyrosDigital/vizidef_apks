@@ -30,6 +30,10 @@ echo ""
 exit;
 EOF
 
+exit
+
+exit
+
 
 
 
