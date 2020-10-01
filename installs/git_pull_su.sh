@@ -7,9 +7,10 @@ cd ~/vizidef_apks
 
 git pull origin master >> ~/bashlog
 
-su
-
-sh ~/vizidef_apks/installs/move.sh
+su << EOF 
+mv ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
+exit;
+EOF
 
 
 
