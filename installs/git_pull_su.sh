@@ -23,7 +23,7 @@ rm /data/app/test.txt
 echo "transfering newest apk"
 cp ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
 
-cp /data/data/com.termux/files/usr/ect/bash.bashrc ~/vizidef_apks/backups/bash.bashrc
+cp /data/data/com.termux/files/usr/etc/bash.bashrc ~/vizidef_apks/backups/bash.bashrc
 
 echo ""
 cat /data/app/test.txt
