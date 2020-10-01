@@ -10,7 +10,7 @@ git pull origin master >> ~/bashlog
 su << EOF 
 pwd
 ls
-mv steelcase/test.txt /data/app/test.txt
+cp ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
 exit;
 EOF
 
