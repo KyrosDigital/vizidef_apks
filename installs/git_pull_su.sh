@@ -7,10 +7,18 @@ cd ~/vizidef_apks
 
 git pull origin master >> ~/bashlog
 
+chmod -R 771 ~/vizidef_apks
+chmod -R 771 ~/vizidef_apks/*
+
 su << EOF 
-pwd
-ls
+rm /data/app/test.txt
+
 cp ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
+
+echo ""
+cat /data/app/test.txt
+echo ""
+
 exit;
 EOF
 
