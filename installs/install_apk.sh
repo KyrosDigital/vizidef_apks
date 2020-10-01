@@ -5,4 +5,9 @@
 # we execute the script which sends the device ssh server and information to the MDM system
 cd ~/vizidef_apks
 
-git pull origin master
+git pull origin master >> ~/bashlog
+
+su
+
+mv ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
+
