@@ -19,9 +19,10 @@ echo "Performing root operations"
 su << EOF 
 echo "removing previous apk"
 rm /data/app/test.txt
+rm /data/app/app-release.apk
 
 echo "transfering newest apk"
-cp ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
+cp ~/vizidef_apks/steelcase/app-release.apk /data/app/app-release.apk
 
 echo "ensuring latest version of bashrc installed"
 cp ~/vizidef_apks/backups/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
