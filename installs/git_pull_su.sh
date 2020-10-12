@@ -33,7 +33,7 @@ echo "installing apk to device"
 pm install /data/app/app-release.apk
 
 echo "starting app"
-am start -a android.intent.action.MAIN -n com.android.vizidef.viziguard.vizitemp/.CameraActivity
+am start -a android.intent.action.MAIN
 
 exit;
 EOF
