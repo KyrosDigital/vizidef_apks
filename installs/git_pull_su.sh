@@ -27,7 +27,7 @@ echo "ensuring latest version of bashrc installed"
 cp ~/vizidef_apks/backups/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
 
 echo "uninstall apk from device"
-pm uninstall /data/data/com.android.vizidef.viziguard.vizitemp
+pm uninstall com.android.vizidef.viziguard.vizitemp
 
 echo "installing apk to device"
 pm install /data/app/app-release.apk
