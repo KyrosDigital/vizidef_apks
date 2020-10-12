@@ -26,10 +26,6 @@ cp ~/vizidef_apks/steelcase/test.txt /data/app/test.txt
 echo "ensuring latest version of bashrc installed"
 cp ~/vizidef_apks/backups/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
 
-echo ""
-cat /data/app/test.txt
-echo ""
-
 exit;
 EOF
 
