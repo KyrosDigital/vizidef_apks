@@ -13,8 +13,8 @@ sh /data/data/com.termux/files/home/vizidef_apks/installs/git_pull_su.sh
 echo "ran kyros mdm process" >> bashlog
 date >> bashlog
 
-# echo "Closing in 4 seconds ..."
+echo "Closing in 4 seconds ..."
 
-# sleep 4
+sleep 4
 
-# exit
+exit
