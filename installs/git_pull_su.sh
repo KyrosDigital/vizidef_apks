@@ -26,11 +26,11 @@ cp ~/vizidef_apks/steelcase/app-release.apk /data/app/app-release.apk
 echo "ensuring latest version of bashrc installed"
 cp ~/vizidef_apks/backups/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
 
-# echo "uninstall apk from device"
-# pm uninstall com.android.vizidef.viziguard.vizitemp
+echo "uninstall apk from device"
+pm uninstall com.android.vizidef.viziguard.vizitemp
 
-# echo "installing apk to device"
-# pm install /data/app/app-release.apk
+echo "installing apk to device"
+pm install /data/app/app-release.apk
 
 echo "starting app"
 am start --user 0 -n com.android.vizidef.viziguard.vizitemp/com.vizidef.viziGUARD.viziTemp.basic.CameraActivity
