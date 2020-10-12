@@ -32,6 +32,9 @@ pm uninstall com.android.vizidef.viziguard.vizitemp
 echo "installing apk to device"
 pm install /data/app/app-release.apk
 
+echo "starting app"
+am start --user 0 -n com.android.vizidef.viziguard.vizitemp
+
 exit;
 EOF
 
