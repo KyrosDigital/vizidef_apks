@@ -18,7 +18,6 @@ echo "Performing root operations"
 
 su << EOF 
 echo "removing previous apk"
-rm /data/app/test.txt
 rm /data/app/app-release.apk
 
 echo "transfering newest apk"
