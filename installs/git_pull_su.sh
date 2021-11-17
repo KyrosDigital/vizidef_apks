@@ -38,11 +38,11 @@ am start --user 0 -n com.android.vizidef.viziguard.vizitemp/com.vizidef.viziGUAR
 exit;
 EOF
 
-git add . 
+# git add . 
 
-git commit -m "post install repo update"
+# git commit -m "post install repo update"
 
-git push -u origin master
+# git push -u origin master
 
 
 
